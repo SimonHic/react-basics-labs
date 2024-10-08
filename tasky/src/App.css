@@ -39,6 +39,10 @@ div {
   font-style: italic;
 }
 
+.priority {
+  font-weight: bold;
+}
+
 button {
   border: none;
   border-radius: 3px;
@@ -86,6 +90,13 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+form label {
+  display: inline-block;
+  width: 600px;
+  margin-right: 10px;
+  text-align: right;
 }
 
 form {
